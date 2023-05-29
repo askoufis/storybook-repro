@@ -1,5 +1,10 @@
 lockfileVersion: '6.0'
 
+patchedDependencies:
+  '@storybook/addon-interactions@7.0.18':
+    hash: 2bihadckiy4ydldbemq73stl34
+    path: patches/@storybook__addon-interactions@7.0.18.patch
+
 dependencies:
   react:
     specifier: ^18.2.0
@@ -23,7 +28,7 @@ devDependencies:
     version: 7.0.18(react-dom@18.2.0)(react@18.2.0)
   '@storybook/addon-interactions':
     specifier: ^7.0.18
-    version: 7.0.18(react-dom@18.2.0)(react@18.2.0)
+    version: 7.0.18(patch_hash=2bihadckiy4ydldbemq73stl34)(react-dom@18.2.0)(react@18.2.0)
   '@storybook/addon-links':
     specifier: ^7.0.18
     version: 7.0.18(react-dom@18.2.0)(react@18.2.0)
@@ -3213,7 +3218,7 @@ packages:
       '@storybook/preview-api': 7.0.18
     dev: true
 
-  /@storybook/addon-interactions@7.0.18(react-dom@18.2.0)(react@18.2.0):
+  /@storybook/addon-interactions@7.0.18(patch_hash=2bihadckiy4ydldbemq73stl34)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-V3OD5lSj6Te6Kzc//2k2S79dLPk6Zu1pAbqWAN4RrdXyKj6YCiZ666GmVdiaG+24Qp5UuMeAkd1D05osJlOteA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -3242,6 +3247,7 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+    patched: true
 
   /@storybook/addon-links@7.0.18(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-xEwflt7bp9FRoZVeqPGb6d3s2Gh+/jaSmnyIxMxrBy2oovKIqu9ptolqz1AhjFOXfaLs9c2RAmJUuFZJtETLxA==}
