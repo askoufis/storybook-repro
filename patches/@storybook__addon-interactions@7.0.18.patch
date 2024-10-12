@@ -1,8 +1,0 @@
-diff --git a/preview.js b/preview.js
-index 49ad602f79f48ec2c3d509a089151bb6f36a6f0e..d3155d23e5f8f8d0076db59e30a24630d7d3e750 100644
---- a/preview.js
-+++ b/preview.js
-@@ -1 +1,2 @@
--export * from './dist/preview';
-+console.log("foo");
-+export * from "./dist/preview";
